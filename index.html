@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Recorder in Javascript</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container mt-4" id="container">
+      <div class="row">
+        <video class="col-md-6" id="video" playsinline autoplay muted></video>
+        <video
+          class="col-md-6"
+          id="recorder"
+          playsinline
+          autoplay
+          muted
+        ></video>
+      </div>
+      <div class="row">
+        <div class="col-md-9 m-auto">
+          <div class="row">
+            <button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.startVideo(); "
+            >
+              Start Camera
+            </button>
+            <button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.startRecording();"
+            >
+              Record</button
+            ><button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.stopRecording(); "
+            >
+              Stop
+            </button>
+            <button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.playVideo('recorder'); "
+            >
+              Play
+            </button>
+            <button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.downloadVideo(); "
+            >
+              Download
+            </button>
+            <button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.uploadToFacebook({page_id: 514398192351994, access_token:YOUR-ACCESS-TOKEN });"
+            >
+              Upload to Facebook
+            </button>
+            <button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.startStreamingToTwitch(); "
+            >
+              Stream to Twitch</button
+            ><button
+              class="btn btn-primary col-md-3 ml-1 mb-3"
+              onclick="return triumphantWebRTC.startStreamingToYoutube(); "
+            >
+              Stream to Youtube
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="text-success" id="errorMsg"></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
