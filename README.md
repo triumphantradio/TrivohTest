@@ -1,5 +1,9 @@
-TO TEST
+FOR A LIVE DEMO
 
+visit: https://jovial-swanson-32b018.netlify.app/
+
+TO TEST
+NB: there are 2 branches, vpr and vpr-backend-api, one is the front end to record, play or download the video the vpr-backend-api processes the the publishing to social media
 
 1. Launch the index page
 2. Click on "Start Camera"
