@@ -3,7 +3,7 @@ FOR A LIVE DEMO
 visit: https://jovial-swanson-32b018.netlify.app/
 
 TO TEST
-NB: there are 2 branches, vpr and vpr-backend-api, one is the front end to record, play or download the video the vpr-backend-api processes the the publishing to social media
+NOTE: there are 2 branches, vpr and vpr-backend-api, one is the front end to record, play or download the video the vpr-backend-api processes the the publishing to social media
 
 1. Launch the index page
 2. Click on "Start Camera"
@@ -12,9 +12,9 @@ NB: there are 2 branches, vpr and vpr-backend-api, one is the front end to recor
 5. Click on "Play" button to play the recorded video
 6. Click on "Download" button to download the recorded video
 
-TO USE OF CONNECT TO ANOTHER PROJECT
+TO USE OR CONNECT TO YOUR SOLUTION
 
-1. all functions are exposed through "triumphantWebRTC"
+NOTE: All functions are exposed through "triumphantWebRTC"
 E.G:
 1. triumphantWebRTC.init({initVideoClass: yourclassname, videoRecorderClass: classtodisplayrecordedvideo }) to initialize the plugin
 2. triumphantWebRTC.destroy(); to destroy the initialized instance
