@@ -29,8 +29,8 @@ E.G:
 The .NET project is the server side api that streams the recorded video to facebook, youtube and twitch.
 with the endpoints
 
-https://domain.com/facebook/startstreaming
-https://domain.com/facebook/streaming
+https://domain.com/facebook/startstreaming<br/>
+https://domain.com/facebook/streaming<br/>
 https://domain.com/facebook/endstreaming
 
 
@@ -41,6 +41,6 @@ https://domain.com/youtube/endstreaming
 
 
 
-https://domain.com/twitch/startstreaming
-https://domain.com/twitch/streaming
+https://domain.com/twitch/startstreaming<br/>
+https://domain.com/twitch/streaming<br/>
 https://domain.com/twitch/endstreaming
